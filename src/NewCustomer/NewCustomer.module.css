@@ -1,0 +1,24 @@
+.cuscont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    width: 100%;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #27282a;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.cuscont > form{
+    display: flex;
+    flex-direction: column;
+}
