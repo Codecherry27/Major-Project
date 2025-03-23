@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter , Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from './Dashboard/Dashboard';
 import Deposit from './Deposit/Deposit';
-import NewCustomer from './NewCustomer/NewCustomer';
 import Transfer from './Transfer/Transfer';
 import Withdraw from './Withdraw/Withdraw';
 import BankingAppFrontPage from "./Frontpage/frontpage";
@@ -19,7 +18,6 @@ root.render(
 <Routes>
 <Route path='/dashboard' element={<Dashboard/>}></Route>
 <Route path='/deposit' element={<Deposit/>}></Route>
-<Route path='/newcustomer' element={<NewCustomer/>}></Route>
 <Route path='/transfer' element={<Transfer/>}></Route>
 <Route path='/withdraw' element={<Withdraw/>}></Route>
 <Route path='/' element={<BankingAppFrontPage/>}></Route>
