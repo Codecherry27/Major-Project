@@ -17,12 +17,12 @@ root.render(
 <BrowserRouter>
 
 <Routes>
-<Route path='/' element={<Dashboard/>}></Route>
+<Route path='/dashboard' element={<Dashboard/>}></Route>
 <Route path='/deposit' element={<Deposit/>}></Route>
 <Route path='/newcustomer' element={<NewCustomer/>}></Route>
 <Route path='/transfer' element={<Transfer/>}></Route>
 <Route path='/withdraw' element={<Withdraw/>}></Route>
-<Route path='/frontpage' element={<BankingAppFrontPage/>}></Route>
+<Route path='/' element={<BankingAppFrontPage/>}></Route>
 <Route path='/login' element={<Login/>}></Route>
 <Route path='/signup' element={<Signup/>}></Route>
 

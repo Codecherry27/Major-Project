@@ -17,7 +17,7 @@ export default function Dashboard() {
                 <a onClick={()=>navigate("/withdraw")} class="action-link">Withdraw</a>
                 <a onClick={()=>navigate("/transfer")} class="action-link">Transfer</a>
             </div>
-            <a onClick={()=>navigate("/frontpage")} href="#" class="logout-link">Logout</a>
+            <a onClick={()=>navigate("/")} href="#" class="logout-link">Logout</a>
         </div>
     );
 }

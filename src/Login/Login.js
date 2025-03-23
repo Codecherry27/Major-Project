@@ -10,7 +10,7 @@ export default function Login() {
         <form>
             <input type="text" class="input-field" placeholder="Username" required />
             <input type="password" class="input-field" placeholder="Password" required />
-            <button onClick={()=>navigate("/")} type="submit" class="login-button">Login</button>
+            <button onClick={()=>navigate("/dashboard")} type="submit" class="login-button">Login</button>
         </form>
         <a onClick={()=>navigate("/signup")} class="signup-link">Don't have an account? Sign up</a>
     </div>

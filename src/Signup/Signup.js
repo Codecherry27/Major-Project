@@ -13,7 +13,7 @@ export default function Signup() {
             <input type="text" class="input-field" placeholder="Username" required/>
             <input type="password" class="input-field" placeholder="Password" required/>
             <input type="password" class="input-field" placeholder="Confirm Password" required/>
-            <button onClick={()=>navigate("/")} type="submit" class="signup-button">Sign Up</button>
+            <button onClick={()=>navigate("/dashboard")} type="submit" class="signup-button">Sign Up</button>
         </form>
         <a onClick={()=>navigate("/login")} class="login-link">Already have an account? Login</a>
     </div>

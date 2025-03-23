@@ -19,7 +19,7 @@ export default function Deposit() {
         </form>
         <button type="submit" class="deposit-button">Deposit</button>
         <div>
-        <a onClick={()=>navigate("/")} class="back-link">Go Back to Dashboard</a>
+        <a onClick={()=>navigate("/dashboard")} class="back-link">Go Back to Dashboard</a>
         </div>
     </div>
     );

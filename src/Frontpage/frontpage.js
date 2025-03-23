@@ -20,12 +20,12 @@ export default function BankingFrontPage () {
         </button>
     <h2>Secure Bank</h2>
     <ul>
-        <li><a onClick={()=>navigate("/")}>Dashboard</a></li>
+        <li><a onClick={()=>navigate("/dashboard")}>Dashboard</a></li>
         <li><a onClick={()=>navigate("/deposit")}>Deposit</a></li>
         <li><a onClick={()=>navigate("/withdraw")}>Withdraw</a></li>
         <li><a onClick={()=>navigate("/transfer")}>Transfer</a></li>
-        <li><a onClick={()=>navigate("/")}>Balance</a></li>
-        <li><a onClick={()=>navigate("/frontpage")}>Logout</a></li>
+        <li><a onClick={()=>navigate("/dashboard")}>Balance</a></li>
+        <li><a onClick={()=>navigate("/")}>Logout</a></li>
     </ul>
 </div>
 

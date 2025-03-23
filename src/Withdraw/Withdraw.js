@@ -18,7 +18,7 @@ export default function Withdraw() {
             
             <button type="submit" class="withdraw-button">Withdraw</button>
         </form>
-        <a onClick={()=>navigate("/")} class="back-link">Go Back to Dashboard</a>
+        <a onClick={()=>navigate("/dashboard")} class="back-link">Go Back to Dashboard</a>
     </div>
     );  
 }

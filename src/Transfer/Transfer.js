@@ -20,7 +20,7 @@ export default function Transfer() {
         <div>
         <button type="submit" class="transfer-button">Transfer</button>
         </div>
-        <a onClick={()=>navigate("/")} class="back-link">Go Back to Dashboard</a>
+        <a onClick={()=>navigate("/dashboard")} class="back-link">Go Back to Dashboard</a>
     </div>
     );
 }
